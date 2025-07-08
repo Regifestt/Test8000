@@ -3,7 +3,7 @@ import uvicorn
 
 app = FastAPI()
 
-@app.get("/users")
+@app.get("/apitest1")
 async def get_users():
     return {"message": "Hi from backend!"}  # Вернёт JSON: {"message": "Hi from backend!"}
 
